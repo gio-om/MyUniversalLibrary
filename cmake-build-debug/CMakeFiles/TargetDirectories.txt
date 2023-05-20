@@ -1,6 +1,0 @@
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/MyUniversalLibrary.dir
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/SortAlgorithms/CMakeFiles/SortAlgorithms.dir
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/SortAlgorithms/CMakeFiles/edit_cache.dir
-/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/SortAlgorithms/CMakeFiles/rebuild_cache.dir
