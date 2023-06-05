@@ -1,0 +1,9 @@
+# ninja log v5
+1	319	1685961683802991025	Structures/CMakeFiles/SortAlgorithms.dir/sorts.cpp.o	e54b961519d41153
+1	182	1685962133995112486	CMakeFiles/MyUniversalLibrary.dir/main.cpp.o	fb9de26eba2cd392
+1	206	1685961995530951675	CMakeFiles/MyUniversalLibrary.dir/Structures/MyVector.cpp.o	bd9809dc46970c72
+1	402	1685961683886992711	Structures/CMakeFiles/SortAlgorithms.dir/sequence.cpp.o	ac422566dd6b4a1
+226	283	1685962025047819267	Structures/libStructures.a	f43f5a28085d8ec1
+0	226	1685962024991817609	Structures/CMakeFiles/Structures.dir/MyVector.cpp.o	45b1f77d682fb481
+182	246	1685962134059114456	MyUniversalLibrary	a8b858fdfab9577e
+402	564	1685961684038995764	Structures/libSortAlgorithms.a	96d1160516fc3f88
