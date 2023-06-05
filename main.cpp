@@ -2,7 +2,7 @@
 #include <vector>
 
 #include "SortAlgorithms/sorts.h"
-#include "SortAlgorithms/prints.h"
+#include "Prints/prints.h"
 #include "SortAlgorithms/sequence.h"
 
 using namespace std;

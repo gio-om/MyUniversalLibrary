@@ -1,7 +1,7 @@
 #include <vector>
 #include <unordered_map>
 #include "sorts.h"
-#include "prints.h"
+#include "../Prints/prints.h"
 
 using namespace std;
 
