@@ -56,8 +56,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -102,7 +101,13 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
 				1
 			]
 		}
@@ -117,9 +122,8 @@
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Structures/MyVector.cpp",
-			"sourceGroupIndex" : 0
+			"path" : "Structures",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

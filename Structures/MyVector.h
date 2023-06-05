@@ -39,6 +39,4 @@ private:
     void resize();
 };
 
-
-
 #endif //MYVECTOR_H

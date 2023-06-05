@@ -14,6 +14,6 @@ set(${project}_SOURCE_LIST
         ${${project}_SOURCES})
 
 add_executable(${project}
-        ${${project}_SOURCE_LIST} Structures/MyVector.cpp)
+        ${${project}_SOURCE_LIST} Structures)
 
 target_link_libraries(${project} Structures)

@@ -222,15 +222,6 @@ MyUniversalLibrary_IS_TOP_LEVEL:STATIC=ON
 MyUniversalLibrary_SOURCE_DIR:STATIC=/home/gioom/CLionProjects/MyUniversalLibrary
 
 //Value Computed by CMake
-SortAlgorithms_BINARY_DIR:STATIC=/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures
-
-//Value Computed by CMake
-SortAlgorithms_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-SortAlgorithms_SOURCE_DIR:STATIC=/home/gioom/CLionProjects/MyUniversalLibrary/SortAlgorithms
-
-//Value Computed by CMake
 Structures_BINARY_DIR:STATIC=/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures
 
 //Value Computed by CMake

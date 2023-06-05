@@ -7,10 +7,12 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(${project}_SOURCES
         MyVector.cpp
+        BinaryTree.cpp
         )
 
 set(${project}_HEADERS
         MyVector.h
+        BinaryTree.h
         )
 
 set(${project}_SOURCE_LIST

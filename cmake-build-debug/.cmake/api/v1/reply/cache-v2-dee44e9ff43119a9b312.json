@@ -1162,42 +1162,6 @@
 			"value" : "/home/gioom/CLionProjects/MyUniversalLibrary"
 		},
 		{
-			"name" : "SortAlgorithms_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures"
-		},
-		{
-			"name" : "SortAlgorithms_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "SortAlgorithms_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/gioom/CLionProjects/MyUniversalLibrary/SortAlgorithms"
-		},
-		{
 			"name" : "Structures_BINARY_DIR",
 			"properties" : 
 			[
