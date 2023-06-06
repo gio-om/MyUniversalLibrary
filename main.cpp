@@ -1,17 +1,18 @@
 #include <iostream>
 
 #include "Structures/BinaryTree.h"
+#include "Structures/MyVector.h"
 
 using namespace std;
 
 int main() {
-    BinaryTree tree;
-    tree.insert(5);
-    tree.insert(-1);
-    tree.insert(0);
-    tree.insert(15);
-    tree.insert(54);
+    MyVector<int> a(5);
+    a.add_element(6);
+    a.add_element(2);
+    a.add_element(1);
+    a.add_element(1);
+    a.add_element(1);
 
-    tree.display();
+    cout << a << endl;
     return 0;
 }
