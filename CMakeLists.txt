@@ -12,19 +12,23 @@ set(${project}_SOURCES
 set(${project}_TESTS
         tests/test.cpp)
 
-add_subdirectory(Structures tests)
+set(${project}_LIBRARIES
+        Structures
+        SortAlgorithms
+        Prints
+        Graphs)
+
+add_subdirectory(${project}_LIBRARIES)
 
 set(${project}_SOURCE_LIST
         ${${project}_SOURCES})
 
 # Testing and executing
-add_executable(tests
-    ${${project}_SOURCE_LIST}
-        Structures
-        ${project}_TESTS)
+add_executable(${project} ${project}_SOURCE_LIST)
 
-target_link_libraries(tests ${project}
-        Structures
-        GTest::gtest_main)
-enable_testing()
-add_test(NAME unit_tests COMMAND tests)
+target_link_libraries(${project}
+        ${project}_LIBRARIES
+        gtest
+        gmock
+        pthread)
+
