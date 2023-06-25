@@ -9,6 +9,8 @@ const int MAX_SIZE = 4;
 template<typename T>
 class MyVector {
 public:
+    MyVector();
+
     explicit MyVector(T el, int maxsz = MAX_SIZE);
 
     MyVector(const MyVector<T> &v);
@@ -41,6 +43,13 @@ protected:
 private:
     void resize();
 };
+
+template<typename T>
+MyVector<T>::MyVector() {
+    size = 0;
+    maxsize = 1;
+    pdata = new T[size];
+}
 
 template<typename T>
 void MyVector<T>::resize() {
@@ -129,17 +138,14 @@ int MyVector<T>::find(T el) {
         return -1;
     }
     int l = 0;
-    int r = size - 1;
-    while (l <= r) {
+    int r = size;
+    while (r > l) {
         int mid = (l + r) / 2;
-        if (pdata[mid] == el) {
-            return mid;
-        } else if(pdata[mid] < el) {
-            l = mid + 1;
-        } else {
-            r = mid - 1;
-        }
+
+        if(pdata[mid] > el) r = mid;
+        else l = mid + 1;
     }
+    if (pdata[r - 1] == el) return r - 1;
     return -1;
 }
 
