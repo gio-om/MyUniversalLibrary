@@ -4,16 +4,27 @@ set(project "MyUniversalLibrary")
 project(${project})
 
 set(CMAKE_CXX_STANDARD 17)
+option(BUILD_TESTS "Build tests" ON)
 
 set(${project}_SOURCES
         main.cpp)
 
-add_subdirectory(Structures)
+set(${project}_TESTS
+        tests/test.cpp)
+
+add_subdirectory(Structures tests)
 
 set(${project}_SOURCE_LIST
         ${${project}_SOURCES})
 
-add_executable(${project}
-        ${${project}_SOURCE_LIST} Structures)
+# Testing and executing
+add_executable(tests
+    ${${project}_SOURCE_LIST}
+        Structures
+        ${project}_TESTS)
 
-target_link_libraries(${project} Structures)
+target_link_libraries(tests ${project}
+        Structures
+        GTest::gtest_main)
+enable_testing()
+add_test(NAME unit_tests COMMAND tests)
