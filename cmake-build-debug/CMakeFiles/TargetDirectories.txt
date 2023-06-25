@@ -1,0 +1,6 @@
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/MyUniversalLibrary.dir
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures/CMakeFiles/Structures.dir
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures/CMakeFiles/edit_cache.dir
+/home/gioom/CLionProjects/MyUniversalLibrary/cmake-build-debug/Structures/CMakeFiles/rebuild_cache.dir
